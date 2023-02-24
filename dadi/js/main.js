@@ -1,13 +1,13 @@
 'use strict';
-const x = Math.floor(Math.random() * 6) + 1;
-console.log(x);
-const y = Math.floor(Math.random() * 6) + 1;
-console.log(y);
+const giocatore = Math.floor(Math.random() * 6) + 1;
+console.log('punteggio giocatore ' + giocatore);
+const computer = Math.floor(Math.random() * 6) + 1;
+console.log('punteggio computer ' + computer);
 
-if(x < y){
+if(giocatore < computer){
     console.log('hai perso');
     alert('hai perso');
-} else if (x === y){
+} else if (giocatore === computer){
     console.log('pareggio');
     alert('pareggio');
 } else{
