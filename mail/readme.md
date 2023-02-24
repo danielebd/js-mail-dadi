@@ -1,4 +1,4 @@
 - creo dei prompt che mi consentano di inserire la mail da cercare 
 - creo un array che contenga una serie di mail (autorizzate)
 -creo un ciclo for (let i = 0; i < nomeArray.lenght; i++) che mi consenta di perlustrare ogni elemento dell'array.
-- creo una condizionale if: al soddisfarsi della condizionale  (se trovi la stringa della mail  da individuare fermati e stampamela su console)
+- creo una condizionale if: al soddisfarsi della condizionale  (se trovi la stringa della mail  da individuare fermati e stampamela su console).
